@@ -38,7 +38,6 @@ export class DataBinder {
 		this.elementToBindData = this.view.querySelectorAll('['+this.bindingString+']');
 		this.elementToBindData.forEach((singleElement) => {
 			let valueFromModel = this._findValueInModel(singleElement.getAttribute(this.bindingString));
-			console.log(valueFromModel)
 			if(typeof valueFromModel != 'undefined') {
 				singleElement.innerHTML = valueFromModel;
 			}
