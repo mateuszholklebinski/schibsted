@@ -1,0 +1,26 @@
+{
+  "name": "schibsted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "js": "babel src/app.js --out-file public/app.js"
+  },
+  "author": "holk",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-jasmine": "^4.0.0",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
